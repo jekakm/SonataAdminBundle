@@ -9,8 +9,6 @@ env:
 
 before_script:
   - composer install --dev
+  - ls -l 
 
 script: phpunit
-
-notifications:
-    webhooks: http://sonata-project.org/bundles/admin/master/travis
